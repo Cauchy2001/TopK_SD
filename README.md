@@ -1,10 +1,12 @@
 #  Data Synthesis 
 
-![chart](https://github.com/Cauchy2001/Rethinking-Label-Consistency-of-In-Context-Learning/blob/main/chart.png)
+![chart](https://github.com/Cauchy2001/TopK-SD_for_ICL/blob/main/chart.png)
 
 ## Overview
 
-This code is for the paper _Rethinking Label Consistency of In-Context Learning: An Implicit Transductive Label Propagation Perspective_. Our code is based on the <a href="https://github.com/Shark-NLP/OpenICL/tree/main">OpenICL repository</a> 
+Our paper "Rethinking Label Consistency of In-Context Learning: An Implicit Transductive Label Propagation Perspective" has been accepted to AAAI 2026. <a href="https://arxiv.org/pdf/2512.12175">
+
+This code is for the paper _TopK Sampling with Synthetic Data for In-Context Learning_. Our code is based on the <a href="https://github.com/Shark-NLP/OpenICL/tree/main">OpenICL repository</a> and <a href="https://github.com/Romainpkq/revisit_demon_selection_in_ICL">revisit_demon_selection_in_ICL repository</a>.
 
 The reference works and related projects are as follows:
 
@@ -14,9 +16,9 @@ The reference works and related projects are as follows:
 Note: OpenICL requires Python 3.8+
 **Installation for local development:**
 ```
-git clone https://github.com/Cauchy2001/Rethinking-Label-Consistency-of-In-Context-Learning.git
+git clone https://github.com/Cauchy2001/TopK-SD_for_ICL.git
 
-cd Rethinking-Label-Consistency-of-In-Context-Learning
+cd TopK-SD_for_ICL
 pip install -e .
 ```
 
@@ -27,6 +29,6 @@ Our code is placed under the "exp" folder, and "run_classfication.py" is the cod
 
 cd exp
 
-CUDA_VISIBLE_DEVICES=0 python run_TopKSD.py
+CUDA_VISIBLE_DEVICES=0 python run_classification.py
 ```
 
